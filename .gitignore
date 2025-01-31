@@ -1,0 +1,34 @@
+# Ignorar arquivos compilados e caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignorar arquivos de ambiente virtual
+venv/
+.env/
+
+# Ignorar arquivos de log e dumps
+*.log
+*.sqlite3
+dump.rdb
+
+# Ignorar configurações do IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignorar dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos específicos do projeto
+*.bak
+*.swp
+
+# Ignorar credenciais sensíveis
+.env
+secrets.json
